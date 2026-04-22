@@ -15,7 +15,7 @@ console.log("--- Then run this script again with the same address to check the b
 
 // To check a specific address you've already funded, replace the line below:
 // const { value: balance } = await rpc.getBalance(address("YOUR_ADDRESS_HERE")).send();
-const { value: balance } = await rpc.getBalance(address("w9Z1BWhRT32quXVer8NWzqVzP73nSFcoMsoVokrcxirq")).send();
+const { value: balance } = await rpc.getBalance(address("9VB4xHkkMK1jc1c3GgJAz6K3J7YYYaa8zuMPfBi6MyLR")).send();
 const balanceInSol = Number(balance) / 1_000_000_000;
 
 console.log(`Balance: ${balanceInSol} SOL`);
