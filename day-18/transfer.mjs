@@ -87,7 +87,7 @@ async function main() {
 		console.error("Get more devnet SOL at https://faucet.solana.com/");
 		process.exit(1);
 	}
-
+	// replacement code for step 4,5 & 6
 	const COMMITMENT_LEVELS = ["processed", "confirmed", "finalized"];
 
 	async function waitForCommitment(rpc, signature, targetCommitment) {
