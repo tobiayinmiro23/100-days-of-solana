@@ -59,4 +59,4 @@ await rpc
   .send();
 
 console.log("Failed transaction signature:", signature);
-console.log(`Explorer: https://explorer.solana.com/tx/${signature}?cluster=devnet`);
+console.log(`Explorer: https://explorer.solana.com/tx/${signature}?cluster=devnet`)
