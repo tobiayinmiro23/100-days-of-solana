@@ -46,8 +46,8 @@ const message = pipe(
   (tx) => appendTransactionMessageInstruction(transferIx, tx)
 );
 
-const signedTx = await signTransactionMessageWithSigners(message);
-const signature = getSignatureFromTransaction(signedTx);
+const signedTx = await signTransactionMessageWithSigners(message)
+const signature = getSignatureFromTransaction(signedTx)
 
 // skipPreflight bypasses local simulation, so the transaction
 // lands on-chain and fails there — exactly what we want.
