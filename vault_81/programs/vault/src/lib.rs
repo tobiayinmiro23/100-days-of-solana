@@ -63,11 +63,6 @@ pub struct Vault {
 #[error_code]
 pub enum VaultError {
     #[msg("Withdrawal exceeds vault balance")]
-    InsufficientFunds, // Anchor assigns this custom code 6000
-}
-#[error_code]
-pub enum VaultError {
-    #[msg("Withdrawal exceeds vault balance")]
     InsufficientFunds,
     #[msg("Deposit overflows vault balance")]
     Overflow,

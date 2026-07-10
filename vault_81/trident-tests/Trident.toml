@@ -1,0 +1,8 @@
+[fuzz.metrics]
+enabled = true
+
+
+[[fuzz.programs]]
+address = "FbFwrAcdUhxKPWGfR9PMzNr4wvVQnTPYhUWvdjLD3ztU"
+program = "../target/deploy/vault.so"
+ 
